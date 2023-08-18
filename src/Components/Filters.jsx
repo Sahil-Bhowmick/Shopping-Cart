@@ -2,7 +2,7 @@ import React, { useState } from "react";
 import { Button, Form, Modal } from "react-bootstrap";
 import { BsFilterCircle } from "react-icons/bs";
 import Rating from "./Rating";
-import { CartState } from "../Context/Context";
+import { CartState } from "../Context/CartContext";
 
 const Filters = () => {
   const {

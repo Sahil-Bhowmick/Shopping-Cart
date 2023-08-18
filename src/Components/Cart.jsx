@@ -1,5 +1,5 @@
 import React, { useEffect, useState } from "react";
-import { CartState } from "../Context/Context";
+import { CartState } from "../Context/CartContext";
 import { Button, ListGroup, Row, Col, Image } from "react-bootstrap";
 import {
   AiFillDelete,

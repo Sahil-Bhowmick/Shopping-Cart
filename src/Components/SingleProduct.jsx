@@ -1,6 +1,6 @@
 import React from "react";
 import { Button, Card } from "react-bootstrap";
-import { CartState } from "../Context/Context";
+import { CartState } from "../Context/CartContext";
 import Rating from "./Rating";
 
 const SingleProduct = ({ prod }) => {

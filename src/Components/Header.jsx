@@ -11,7 +11,7 @@ import {
 import { FaShoppingCart } from "react-icons/fa";
 import { AiFillDelete } from "react-icons/ai";
 import { Link } from "react-router-dom";
-import { CartState } from "../Context/Context";
+import { CartState } from "../Context/CartContext";
 
 const Header = () => {
   const {
