@@ -49,8 +49,14 @@ const Cart = () => {
           {cart.map((prod) => (
             <ListGroup.Item key={prod.id}>
               <Row className="align-items-center">
-                <Col xs={7} sm={6} md={2}>
-                  <Image src={prod.image} alt={prod.name} fluid rounded />
+                <Col xs={4} sm={6} md={2}>
+                  <Image
+                    className="prodImg"
+                    src={prod.image}
+                    alt={prod.name}
+                    fluid
+                    rounded
+                  />
                 </Col>
                 <Col xs={12} sm={6} md={2}>
                   <span>{prod.name}</span>
